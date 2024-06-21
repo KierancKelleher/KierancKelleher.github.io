@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distinctive Pressure Washing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <p class="center-text">Serving the Alexandria, VA Area</p>
+            <div class="contact-info">
+                <a href="tel:5719697761" class="phone">Call us Today! 703-505-4671</a>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <img src="logo.webp" alt="Logo" class="logo" height="50" width="50" style="float: left; padding-left: 100px;">
+
+        <div class="container">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#quote">Request a Free Quote</a></li>
+                <li><a href="#quote" class="btn book-btn">Book Online</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Distinctive Pressure Washing</h1>
+            <h3>Top-notch Residential Pressure Washing Services</h3>
+        </div>
+    </header>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <i class="fas fa-water"></i>
+                    <h3>Driveway Cleaning</h3>
+                </div>
+                <div class="service">
+                    <i class="fas fa-home"></i>
+                    <h3>Exterior House Cleaning</h3>
+                </div>
+                <div class="service">
+                    <i class="fas fa-road"></i>
+                    <h3>Walkway Cleaning</h3>
+                </div>
+                <div class="service">
+                    <i class="fas fa-bacon"></i>
+                    <h3>Stairs Cleaning</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <h3>Driveway Cleaning</h3>
+                    <img src="driveway.jpg" alt="Driveway Cleaning">
+                </div>
+                <div class="gallery-item">
+                    <h3>Exterior House Cleaning</h3>
+                    <img src="exterior.webp" alt="Exterior House Cleaning">
+                </div>
+                <div class="gallery-item">
+                    <h3>Walkway Cleaning</h3>
+                    <img src="walkway.jpeg" alt="Walkway Cleaning">
+                </div>
+                <div class="gallery-item">
+                    <h3>Stairs Cleaning</h3>
+                    <img src="stairs.jpg" alt="Stairs Cleaning">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="quote-section">
+        <div class="container">
+            <h2>Request a Free Quote & Book an Appointment</h2>
+            <form id="quoteForm" action="https://formspree.io/f/xqazzeld" method="POST">
+                <input type="hidden" name="_subject" value="New Quote Request from Website">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="pnumber">Phone number:</label>
+                <input type="tel" id="pnumber" name="pnumber" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                <label for="service">Service:</label>
+                <select id="service" name="service" required>
+                    <option value="driveway">Driveway Cleaning</option>
+                    <option value="exterior">Exterior House Cleaning</option>
+                    <option value="walkway">Walkway Cleaning</option>
+                    <option value="stairs">Stairs Cleaning</option>
+                </select>
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Send :)</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Distinctive Pressure Washing &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

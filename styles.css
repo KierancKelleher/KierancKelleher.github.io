@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #6b6666;
+}
+
+.top-bar {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .logo {
+    height: 50px;
+}
+
+.top-bar .center-text {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+.top-bar .contact-info .phone {
+    padding: 20px;
+    color: #4669de;
+    font-weight: bold;
+    text-decoration: none
+    
+}
+
+nav {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #6b6666;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li .btn {
+    background: #4669de;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav ul li .btn:hover {
+    background: #4669de;
+}
+
+header {
+    background: url('header-bg.webp') no-repeat center center/cover;
+    color: #ffff;
+    text-align: center;
+    padding: 250px; 
+}
+
+header .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+header .btn {
+    background: #4669de;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+header .btn:hover {
+    background: #290ad7;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section {
+    background: #fff;
+}
+
+.services-section {
+    background: #e9ecef;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service i {
+    font-size: 2em;
+    color: #4669de;
+}
+
+.gallery-section {
+    background: #fff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 300px;  /* or any specific width you prefer */
+    height: 200px; /* corresponding height to maintain aspect ratio or desired cropping */
+    object-fit: cover; /* this will ensure the images cover the space without distorting */
+    border-radius: 5px;
+}
+
+
+
+
+.quote-section {
+    background: #e9ecef;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form select {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    width: 80%;
+    max-width: 400px;
+}
+
+form button {
+    padding: 0.7em 2em;
+    margin-top: 1em;
+    background-color: #4669de;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #4669de;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
